@@ -2,9 +2,11 @@
 
 ## Steps to use code (local implementation using nodeJS)
 
-Install NodeJS
+Install NodeJS and NPM (https://phoenixnap.com/kb/install-node-js-npm-on-windows , https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)
 
-Import D3 packages into a new folder (node_modules)
+Open Node.sj on windows or Linux Bash command line and Verify NPM installation using npm -v and node --version
+
+Run npm install d3-sankey-circular, npm install d3-sankey, npm install d3-save-fig. These D3 packages are stored into a new folder (node_modules)
 
 Upload Sankey database into Sankey_XXX.js (Can use 'finalJSConstructor.py XXX.csv' to generate this Sankey_XXX.js)
 
