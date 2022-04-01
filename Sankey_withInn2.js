@@ -42,7 +42,7 @@ let dataV={"nodes": [
 {"source":"rPLA", "target":"Losses", "value":0.0006, "optimal":"yes"},
 {"source":"LCUpstream", "target":"HDPE", "value":0.00001, "optimal":"yes"} ,
 {"source":"LCUpstream", "target":"LDPE", "value":0.00001, "optimal":"yes"} ,
-{"target":"LCUpstream", "source":"LABS from chemical recycling of PE", "value":0.00001, "optimal":"yes"} ,
-{"target":"LCUpstream", "source":"Light Liquid Fuel Pyrolysis", "value":0.00001, "optimal":"yes"} ,
-{"target":"LCUpstream", "source":"Lactic acid from acid hydrolysis", "value":0.00001, "optimal":"yes"} ]};
+{"target":"LCUpstream", "source":"LABS from chemical recycling of PE", "value":0.26, "optimal":"yes"} ,
+{"target":"LCUpstream", "source":"Light Liquid Fuel Pyrolysis", "value":0.09, "optimal":"yes"} ,
+{"target":"LCUpstream", "source":"Lactic acid from acid hydrolysis", "value":0.5, "optimal":"yes"} ]};
 

@@ -32,7 +32,7 @@ let dataV={"nodes": [
 {"source":"Segregation", "target":"Lactic acid from acid hydrolysis", "value":0.0062, "optimal":"yes"},
 {"source":"LCUpstream", "target":"HDPE", "value":0.00001, "optimal":"yes"} ,
 {"source":"LCUpstream", "target":"LDPE", "value":0.00001, "optimal":"yes"} ,
-{"target":"LCUpstream", "source":"LABS from chemical recycling of PE", "value":0.00001, "optimal":"yes"} ,
-{"target":"LCUpstream", "source":"C4 Gas Mixture Pyrolysis", "value":0.00001, "optimal":"yes"} ,
-{"target":"LCUpstream", "source":"Light Liquid Fuel Pyrolysis", "value":0.00001, "optimal":"yes"} ,
-{"target":"LCUpstream", "source":"Lactic acid from acid hydrolysis", "value":0.00001, "optimal":"yes"} ]};
+{"target":"LCUpstream", "source":"LABS from chemical recycling of PE", "value":0.35, "optimal":"yes"} ,
+{"target":"LCUpstream", "source":"C4 Gas Mixture Pyrolysis", "value":0.0001, "optimal":"yes"} ,
+{"target":"LCUpstream", "source":"Light Liquid Fuel Pyrolysis", "value":0.14, "optimal":"yes"} ,
+{"target":"LCUpstream", "source":"Lactic acid from acid hydrolysis", "value":0.005, "optimal":"yes"} ]};
