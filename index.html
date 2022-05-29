@@ -8,7 +8,7 @@
       <script src="d3-sankey-circular.js"></script>
       <script src="d3-save-svg.js"></script>
       <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
-      <script src="Sankey_withInn2.js"></script>
+      <script src="SankeyInn.js"></script>
 
       <link href="https://fonts.googleapis.com/css?family=Roboto:100i" rel="stylesheet">
 
@@ -24,8 +24,8 @@
             }
 
     text {
-              font-size: 17px;
-              font-weight:750;
+              font-size: 20px;
+              font-weight:1000;
               font-family: calibri, sans-serif;
             }
 
@@ -42,20 +42,20 @@
       <div id="chart"></div>
 
       <script>
-        var margin = { top: 100, right: 150, bottom: 130, left: 100 };
-    var width = 640;
-    var height = 360;
+        var margin = { top: 200, right: 150, bottom: 130, left: 200 };
+    var width = 720;
+    var height = 300;
 
     let data = dataV;
 
-    const nodePadding = 75;
+    const nodePadding = 15;
 
-    const circularLinkGap = 2;
+    const circularLinkGap = 1;
 
     var sankey = d3.sankey()
       .nodeWidth(30)
       .nodePadding(nodePadding)
-      .nodePaddingRatio(0.75)
+      .nodePaddingRatio(0.76)
       .scale(0.5)
       .size([width, height])
       .nodeId(function (d) {
@@ -160,7 +160,7 @@
       .enter()
       .append("g")
       .attr("class", "g-arrow")
-      .call(appendArrows, 20, 300, 4)
+    .call(appendArrows, 20, 300, 4);
 
     function highlightNodes(node, name) {
 
